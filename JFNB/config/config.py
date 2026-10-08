@@ -11,8 +11,8 @@ def set_config():
     # parser.add_argument('--data-path', type=str, default='/home/hutao/缝好的/EEGMat')
     # parser.add_argument('--data-path', type=str, default=r'/home/hutao/研究生论文/缝好的/DEAP')
     parser.add_argument('--subjects', type=int, default=1)
-    parser.add_argument('--num-class', type=int, default=2, choices=[2, 5, 6, 7])
-    # A is Arousal。V is Motivation, T_V is Valence, D is State, L is Cognition, S is 6-class, T is 7-class
+    parser.add_argument('--num-class', type=int, default=2, choices=[2, 5, 6, 7]) # S is 6; T is 7; A,V,T_V,D,L is 2
+    # A is Arousal; V is Motivation; T_V is Valence; D is State; L is Cognition; S is 6-class; T is 7-class
     parser.add_argument('--label-type', type=str, default='A', choices=['A', 'V', 'D', 'L', 'S', 'T_V', 'T', 'haha', 'Axis'])
     parser.add_argument('--train_method', type=str, default="n_fold", choices=["n_fold", "loso"])
     parser.add_argument('--segment', type=int, default=4)  # segment length in seconds
