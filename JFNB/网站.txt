@@ -1,0 +1,20 @@
+https://github.com/xmh1011/AT-DGNN/blob/main/README.md
+
+
+python main.py --data-path './example' --dataset 'MEEG' --sampling-rate=1000 --target-rate=200 --trial-duration=59 --input-shape '1,32,800' --subjects=1 --model 'AT-DGNN'
+
+
+
+python main.py --data-path './example' --dataset 'DEAP' --sampling-rate=128 --target-rate=128 --trial-duration=63 --input-shape '1,32,512' --subjects=1 --model 'AT-DGNN'
+
+
+跑全部：
+
+python main.py --dataset 'MEEG' --sampling-rate=1000 --target-rate=200 --trial-duration=59 --input-shape '1, 32, 800'
+
+python main.py --dataset 'DEAP' --sampling-rate=128 --target-rate=128 --trial-duration=63 --input-shape '1, 32, 512'
+
+自己的数据集:
+ python main.py --tsne --num-class 2 --class-names "LXQ,LXR"
+
+python main.py --tsne --num-class 6 --class-names "MEE,IEE,MIW,IIW,CAL,IMA"
