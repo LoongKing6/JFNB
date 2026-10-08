@@ -108,7 +108,7 @@ def get_model(args):
             open_trans = True
 
 
-        if args.dataset == 'DEAP' or args.dataset == 'MEEG':
+        if args.dataset == 'DEAP':
             layers_transformer = 1
             layers_len = 193
             num_head = 8
