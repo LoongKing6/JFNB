@@ -5,3 +5,8 @@ https://drive.google.com/file/d/1K4uXp_DMbXEGev9JDHdo1e83E0Xjt7S2/view?usp=drive
 
 
 Details about the dataset can be found under “github-pages” in the lower-right corner.
+
+
+
+How to Run:
+Select the task you want to run in `config`, then click “Run” in `main.py`.
