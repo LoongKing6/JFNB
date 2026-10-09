@@ -11,29 +11,29 @@ Details about the dataset can be found under “github-pages” in the lower-rig
 How to Run:
 Select the task you want to run in `config`, then click “Run” in `main.py`.
 
-python main.py --dataset EMO --model 'JFNB'  --num-class 2  --data-path /home/hutao/缝好的/RESB --label-type A --train_method n_fold  --graph-type 'fro'  --input-shape' "1,32,2000"
+python main.py --dataset EMO --model 'JFNB'  --num-class 2  --data-path /home/RESB --label-type A --train_method n_fold  --graph-type 'fro'  --input-shape' "1,32,2000"
 
-python main.py --dataset EMO --model 'JFNB'  --num-class 2  --data-path /home/hutao/缝好的/RESB --label-type A --train_method loso    --graph-type 'fro'  --input-shape' "1,32,2000"
+python main.py --dataset EMO --model 'JFNB'  --num-class 2  --data-path /home/RESB --label-type A --train_method loso    --graph-type 'fro'  --input-shape' "1,32,2000"
 
-python main.py --dataset EMO --model 'JFNB'  --num-class 6  --data-path /home/hutao/缝好的/RESB --label-type S --train_method n_fold  --graph-type 'fro'  --input-shape' "1,32,2000"
+python main.py --dataset EMO --model 'JFNB'  --num-class 6  --data-path /home/RESB --label-type S --train_method n_fold  --graph-type 'fro'  --input-shape' "1,32,2000"
 
-python main.py --dataset EMO --model 'JFNB'  --num-class 6  --data-path /home/hutao/缝好的/RESB --label-type S --train_method loso    --graph-type 'fro'  --input-shape' "1,32,2000"
+python main.py --dataset EMO --model 'JFNB'  --num-class 6  --data-path /home/RESB --label-type S --train_method loso    --graph-type 'fro'  --input-shape' "1,32,2000"
 
-python main.py --dataset EMO --model 'JFNB'  --num-class 7  --data-path /home/hutao/缝好的/RESB --label-type T --train_method n_fold  --graph-type 'fro'  --input-shape' "1,32,2000"
+python main.py --dataset EMO --model 'JFNB'  --num-class 7  --data-path /home/RESB --label-type T --train_method n_fold  --graph-type 'fro'  --input-shape' "1,32,2000"
 
-python main.py --dataset EMO --model 'JFNB'  --num-class 7  --data-path /home/hutao/缝好的/RESB --label-type T --train_method loso    --graph-type 'fro'  --input-shape' "1,32,2000"
+python main.py --dataset EMO --model 'JFNB'  --num-class 7  --data-path /home/RESB --label-type T --train_method loso    --graph-type 'fro'  --input-shape' "1,32,2000"
 
-python main.py --dataset DEAP --model 'JFNB'  --num-class 2  --data-path /home/hutao/缝好的/DEAP --label-type A --train_method n_fold  --graph-type 'fro'  --input-shape' "1,32,800"
+python main.py --dataset DEAP --model 'JFNB'  --num-class 2  --data-path /home/DEAP --label-type A --train_method n_fold  --graph-type 'fro'  --input-shape' "1,32,800"
 
-python main.py --dataset DEAP --model 'JFNB'  --num-class 2  --data-path /home/hutao/缝好的/DEAP --label-type A --train_method loso    --graph-type 'fro'  --input-shape' "1,32,800"
+python main.py --dataset DEAP --model 'JFNB'  --num-class 2  --data-path /home/DEAP --label-type A --train_method loso    --graph-type 'fro'  --input-shape' "1,32,800"
 
 
-python main.py --dataset EEGMAT --model 'JFNB'  --num-class 2  --data-path /home/hutao/缝好的/EEGMAT --label-type A --train_method loso    --graph-type 'fro'  --input-shape' "1,20,800"
+python main.py --dataset EEGMAT --model 'JFNB'  --num-class 2  --data-path /home/EEGMAT --label-type A --train_method loso    --graph-type 'fro'  --input-shape' "1,20,800"
 
-python main.py --dataset ISRUC --model 'JFNB'  --num-class 2  --data-path /home/hutao/缝好的/ISRUC --label-type A --train_method n_fold  --graph-type 'fro'  --input-shape' "1,6,3000"
+python main.py --dataset ISRUC --model 'JFNB'  --num-class 2  --data-path /home/ISRUC --label-type A --train_method n_fold  --graph-type 'fro'  --input-shape' "1,6,3000"
 
-python main.py --dataset ISRUC --model 'JFNB'  --num-class 2  --data-path /home/hutao/缝好的/ISRUC --label-type A --train_method loso    --graph-type 'fro'  --input-shape' "1,32,3000"
+python main.py --dataset ISRUC --model 'JFNB'  --num-class 2  --data-path /home/ISRUC --label-type A --train_method loso    --graph-type 'fro'  --input-shape' "1,32,3000"
 
-python main.py --dataset MIP --model 'JFNB'  --num-class 2  --data-path /home/hutao/缝好的/multisensory --label-type A --train_method n_fold  --graph-type 'fro'
+python main.py --dataset MIP --model 'JFNB'  --num-class 2  --data-path /home/multisensory --label-type A --train_method n_fold  --graph-type 'fro'
 
-python main.py --dataset MIP --model 'JFNB'  --num-class 2  --data-path /home/hutao/缝好的/multisensory --label-type A --train_method loso    --graph-type 'fro'
+python main.py --dataset MIP --model 'JFNB'  --num-class 2  --data-path /home/multisensory --label-type A --train_method loso    --graph-type 'fro'
